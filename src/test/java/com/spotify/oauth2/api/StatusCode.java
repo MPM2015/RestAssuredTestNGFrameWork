@@ -7,9 +7,6 @@ public enum StatusCode {
     CODE_400(400,"Missing required field: name"),
     CODE_401(401,"Invalid access token");
 
-    //private final int code;
-    //private final String msg;
-
     public final int code;
     public final String msg;
 
